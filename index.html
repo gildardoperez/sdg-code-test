@@ -1,50 +1,56 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SDG Accordion</title>
+  <title>SDG - Accordion Tabs</title>
       <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container">
-  <ol class="acc">
-    <li>
-      <div class="acc_ctrl"><h2>care</h2></div>
-      <div class="acc_panel">
-        <p>The Ford Motor Company (commonly referred to as simply Ford) is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit. It was founded by Henry Ford and incorporated on June 16, 1903.</p>
-      </div>
-    </li>
-    <li>
-      <div class="acc_ctrl"><h2>materials</h2></div>
-      <div class="acc_panel">
-        <p>Toyota Motor Corporation is a Japanese automotive manufacturer which was founded by Kiichiro Toyoda in 1937 as a spinoff from his father's company Toyota Industries, which is currently headquartered in Toyota, Aichi Prefecture, Japan.</p>
-      </div>
-    </li>
-    <li>
-      <div class="acc_ctrl"><h2>fit guide</h2></div>
-      <div class="acc_panel">
-      	<ul>
-			<li>
-				<h2>50%</h2>
-				<p>cashmere</p>
-			</li>
-      		<li>
-      			<h2>46%</h2>
-      			<p>wool</p>
-      		</li>
-      		<li>
-      			<h2>4%</h2>
-      			<p>modal</p>
-      		</li>
-      	</ul>
-      	<hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nibh arcu, ultricies nec purus quis, consequat luctus orci. Sed non mi nisi. Donec vulputate erat odio, eget lacinia lectus accumsan sed. Phasellus diam lorem, ullamcorper quis velit a, ultricies facilisis turpis. Sed laoreet efficitur odio, ut consequat arcu iaculis non. Quisque lectus ligula, venenatis quis ullamcorper vitae, euismod in nisi. Sed sed arcu tortor. Phasellus a iaculis metus, sed suscipit dui. Nunc mollis, ipsum at tristique dignissim, enim mi sodales nulla, sed dapibus lorem tortor et nisi.</p>
-      </div>
-    </li>
-  </ol>
+<div class="container">
+   
+<ul class="accordion-tabs-minimal">
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link is-active">fit guide</a>
+    <div class="tab-content">
+      <p>First tab content. You can put whever you want between the div tags (above and below this current pargraph). This includes sections, headings, lists, whatever you like.</p>
+    </div>
+  </li>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">care</a>
+    <div class="tab-content">
+      <p>Second tab content. Ut laoreet augue et neque pretium non sagittis nibh pulvinar. Etiam ornare tincidunt orci quis ultrices. Pellentesque ac sapien ac purus gravida ullamcorper. Duis rhoncus sodales lacus, vitae adipiscing tellus pharetra sed. Praesent bibendum lacus quis metus condimentum ac accumsan orci vulputate. Aenean fringilla massa vitae metus facilisis congue. Morbi placerat eros ac sapien semper pulvinar. Vestibulum facilisis, ligula a molestie venenatis, metus justo ullamcorper ipsum, congue aliquet dolor tortor eu neque. Sed imperdiet, nibh ut vestibulum tempor, nibh dui volutpat lacus, vel gravida magna justo sit amet quam. Quisque tincidunt ligula at nisl imperdiet sagittis. Morbi rutrum tempor arcu, non ultrices sem semper a. Aliquam quis sem mi.</p>
+    </div>
+  </li>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">materials</a>
+    <div class="tab-content">
+      <ol>
+      <li>
+        <ul>
+          <li>
+            <h2>50%</h2>
+            <p>cashmere</p>
+          </li>
+          <li>
+            <h2>46%</h2>
+            <p>wool</p>
+          </li>
+          <li>
+            <h2>4%</h2>
+            <p>modal</p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nibh arcu, ultricies nec purus quis, consequat luctus orci. Sed non mi nisi. Donec vulputate erat odio, eget lacinia lectus accumsan sed. Phasellus diam lorem, ullamcorper quis velit a, ultricies facilisis turpis. Sed laoreet efficitur odio, ut consequat arcu iaculis non. Quisque lectus ligula, venenatis quis ullamcorper vitae, euismod in nisi. Sed sed arcu tortor. Phasellus a iaculis metus, sed suscipit dui. Nunc mollis, ipsum at tristique dignissim, enim mi sodales nulla, sed dapibus lorem tortor et nisi.</p>  
+    </div>
+  </li>
+</ul>
+
+
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script  src="js/index.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
