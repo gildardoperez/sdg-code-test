@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  $('.accordion-tabs-minimal').each(function(index) {
-    $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+  $('.accordion-tabs').each(function(index) {
+    $(this).children('li').last().children('a').addClass('is-active').next().addClass('is-open').show();
   });
-  $('.accordion-tabs-minimal').on('click', 'li > a.tab-link', function(event) {
+  $('.accordion-tabs').on('click', 'li > a.tab-title', function(event) {
     if (!$(this).hasClass('is-active')) {
       event.preventDefault();
-      var accordionTabs = $(this).closest('.accordion-tabs-minimal');
+      var accordionTabs = $(this).closest('.accordion-tabs');
       accordionTabs.find('.is-open').removeClass('is-open').hide();
 
       $(this).next().toggleClass('is-open').toggle();

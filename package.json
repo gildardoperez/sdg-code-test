@@ -4,11 +4,15 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'",
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.12.5"
+    "browser-sync": "^2.12.5",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1"
   }
 }
