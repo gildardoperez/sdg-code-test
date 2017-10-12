@@ -1,7 +1,6 @@
 # SDG Code Test - Create an Accordion 
 SDG (Spiegel Design Group) is a full-service web design, development, and e-commerce agency in Los Angeles that focuses on Magento E-Commerce Development.
 
-
 # Code Test Instructions
 ## Overview
 The purpose of this test is to get an idea of your abilities with html, css, and javascript responsive component.
@@ -32,3 +31,10 @@ The purpose of this test is to get an idea of your abilities with html, css, and
 
 * `npm start`
 * Visit your app at [http://localhost:3000/](http://localhost:3000).
+
+## Assets
+* http://svp.xyz/psd/phone.psd
+* http://svp.xyz/psd/tablet-and-desktop.psd
+
+## Live Demo
+http://svp.xyz/sdg-accordion/
